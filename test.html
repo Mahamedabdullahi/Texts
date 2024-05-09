@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somali to Arabic Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+        }
+        .input-group button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+        }
+        .input-group button:hover {
+            background-color: #45a049;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Somali to Arabic Translator</h1>
+        <div class="input-group">
+            <label for="somali">Somali:</label>
+            <input type="text" id="somali" name="somali">
+            <button onclick="translate()">Translate</button>
+        </div>
+        <div class="output" id="output">
+            <p>Output:</p>
+            <p id="arabic"></p>
+        </div>
+    </div>
+    <script>
+        const dictionary = {
+            'hello': 'مرحبا',
+            'how are you': 'كيف حالك',
+            'what is your name': 'ما اسمك',
+            'my name is': 'اسمي',
+            'i am fine': 'انا حالي',
+            'i am not fine': 'انا لست حالي',
+            'goodbye': 'مع السلامة',
+            'yes': 'نعم',
+            'no': 'لا',
+            'please': 'من فضلك',
+            'thank you': 'شكرا',
+            'i love you': 'احبك',
+            'i do not love you': 'لا احبك',
+            'i am a student': 'انا طالب',
+            'i am a teacher': 'انا معلم',
+            'i am a doctor': 'انا طبيب',
+            'i am a nurse': 'انا ممرض',
+            'i am a police officer': 'انا محاكم',
+            'i am a firefighter': 'انا مناصر حرائق',
+            'i am a pilot': 'انا طيار',
+            'i am a farmer': 'انا مزارع',
+            'i am a fisherman': 'انا مشاعر',
+            'i am a cook': 'انا طباخ',
+            'i am a waiter': 'انا مندوب طعام',
+            'i am a cleaner': 'انا منظف',
+            'i am a manager': 'انا مدير',
+        }
+        </script>
+
+        </body>
+        </html>
